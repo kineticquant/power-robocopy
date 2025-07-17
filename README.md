@@ -1,6 +1,8 @@
 # power-robocopy
 Flexible/robust PowerShell script that leverages Robocopy to back up specified folders from a source to a destination. Designed for easy configuration and provides detailed logging for tracking backup operations.
 
+Initially developed to utilize for myself to schedule and copy backups of critical NAS folders to other locations in case of failover. 
+
 ## Overview
 
 The primary goal of this script is to automate the process of backing up important folders. It creates a unique, date-stamped folder for each backup run, ensuring that previous backups are not overwritten. This provides a simple and effective version history of your files.
